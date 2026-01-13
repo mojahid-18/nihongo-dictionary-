@@ -1,0 +1,7 @@
+{
+  "name": "Nihongo-Bangla Abhidhan",
+  "description": "An expert Japanese-Bengali dictionary and grammar guide providing detailed meanings, grammar variations, and contextual usage notes in Bengali.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
