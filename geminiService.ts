@@ -2,7 +2,9 @@
 import { GoogleGenAI, Type } from "@google/genai";
 import { WordAnalysis, EvaluationResult, GrammarQnAResult } from "./types";
 
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY || "" });
+const ai = new GoogleGenAI({
+  apiKey: "AIzaSyCenk49HrGk0Qu0qEMlJj-w9-SaB2Eo-Cc"
+});
 
 export const analyzeWord = async (word: string): Promise<WordAnalysis> => {
   const prompt = `জাপানি শব্দ বিশ্লেষণ: "${word}"।
